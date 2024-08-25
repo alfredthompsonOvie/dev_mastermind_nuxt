@@ -1,0 +1,24 @@
+:root {
+	--bg: hsl(236, 82%, 6%);
+	--secondary: hsl(210, 75%, 8%);
+	--primary: hsl(235, 69%, 54%);
+	--accent: hsl(208, 73%, 54%);
+	--cta: hsl(336, 95%, 52%);
+	--text: hsl(233, 81%, 94%);
+
+
+	--GrayishDarkBlue-border: hsla(245, 10%, 22%, 0.15);
+	--GrayishDarkBlue: hsl(245, 10%, 22%);
+	--DarkBlue: hsl(206, 41%, 21%);
+	--SlightlyDesaturatedCyan: hsl(167, 36%, 54%);
+	--BrightRedErrors: hsl(0, 90%, 57%);
+	--LightGreyTextField: hsl(240, 2%, 92%);
+	--VeryLightGreyBG: hsl(0, 0%, 98%);
+
+	--linearPrimarySecondary: linear-gradient(#7a98fd, #46039c);
+	--linearPrimaryAccent: linear-gradient(#7a98fd, #9b15fb);
+	--linearSecondaryAccent: linear-gradient(#46039c, #9b15fb);
+	--radialPrimarySecondary: radial-gradient(#7a98fd, #46039c);
+	--radialPrimaryAccent: radial-gradient(#7a98fd, #9b15fb);
+	--radialSecondaryAccent: radial-gradient(#46039c, #9b15fb);
+}

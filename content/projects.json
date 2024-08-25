@@ -1,0 +1,335 @@
+{
+  "body": [
+    {
+      "desktopPreview": "image-portfolio-mapmate.png",
+      "image_desktop_alt": "desktop preview of Mapmate homepage",
+      "title": "Mapmate",
+      "heroImage": "image-mapmate-preview-1.png",
+      "description": "Mapmate is a full stack application designed to help businesses manage customer locations efficiently. Built with ReactJS, NodeJS, ExpressJS, and MongoDB, Mapmate allows users to visualize client locations on a map, manage customer data, and determine which clients are nearby. The app also provides robust features for adding, editing, and deleting customer information.",
+      "category": [
+        "Full Stack Development",
+        "ReactJS / NodeJS / ExpressJS / MongoDB"
+      ],
+      "linkContent": "View Code",
+      "linkUrl": "https://github.com/alfredthompsonOvie/waywise",
+      "background": {
+        "title": "Project Background",
+        "description": "Mapmate was created to provide businesses with a streamlined solution for managing customer locations and data. It offers mapping integration, enabling real-time visualization of customer locations while providing full CRUD operations through a modern and efficient tech stack.",
+        "subHeading": "Static Previews",
+        "previewImage_one": "image-mapmate-preview-1.png",
+        "previewImage_two": "image-mapmate-preview-2.png",
+        "image_mobile_alt": "mobile preview of Mapmate homepage"
+      },
+      "previousProject": "Easybank",
+      "nextProject": "Inscribe"
+    },
+    {
+      "desktopPreview": "image-portfolio-inscribe.png",
+      "image_desktop_alt": "desktop preview of Inscribe homepage",
+      "title": "Inscribe",
+      "heroImage": "image-inscribe-preview-1.png",
+      "description": "Inscribe is more than just an online bookstore—it's a dynamic hub for book lovers. Discover trending reads, explore daily deals, and find out what’s on sale or just arrived. Built with ReactJS, this platform is designed to create a smooth shopping experience, helping users stay updated on the latest literary trends while enjoying exclusive deals.",
+      "category": [
+        "Interaction Design / Front End Development",
+        "HTML / CSS / JS / ReactJS"
+      ],
+      "linkContent": "Visit Website",
+      "linkUrl": "https://inscribe-ovie.vercel.app",
+      "background": {
+        "title": "Project Background",
+        "description": "Inscribe was created to provide an enjoyable and seamless online shopping experience for book lovers. By implementing a user-friendly interface with ReactJS, the platform brings book trends, deals, and reviews together in one place for an engaging experience.",
+        "subHeading": "Static Previews",
+        "previewImage_one": "image-inscribe-preview-1.png",
+        "previewImage_two": "image-inscribe-preview-2.png",
+        "image_mobile_alt": "mobile preview of Inscribe homepage"
+      },
+      "previousProject": "Mapmate",
+      "nextProject": "TravelTales"
+    },
+    {
+      "desktopPreview": "image-portfolio-traveltales.png",
+      "image_desktop_alt": "desktop preview of TravelTales homepage",
+      "title": "TravelTales",
+      "heroImage": "image-traveltales-preview-1.png",
+      "description": "TravelTales is your gateway to unforgettable adventures. This platform makes it easy to book hotels, flights, and curated travel packages while offering a glimpse into what other tourists are saying about your next destination. Built with ReactJS, TravelTales provides a seamless journey from planning to booking to sharing your travel stories.",
+      "category": [
+        "Interaction Design / Front End Development",
+        "HTML / CSS / JS / ReactJS"
+      ],
+      "linkContent": "Visit Website",
+      "linkUrl": "https://traveltales-ovie.vercel.app",
+      "background": {
+        "title": "Project Background",
+        "description": "TravelTales was designed to bring together booking and travel experience sharing on one platform. Using ReactJS, it delivers a smooth, responsive interface that allows users to book travel and review destinations easily.",
+        "subHeading": "Static Previews",
+        "previewImage_one": "image-traveltales-preview-1.png",
+        "previewImage_two": "image-traveltales-preview-2.png",
+        "image_mobile_alt": "mobile preview of TravelTales homepage"
+      },
+      "previousProject": "Inscribe",
+      "nextProject": "YelpCamp"
+    },             
+    {
+      "desktopPreview": "image-portfolio-yelpcamp.jpg",
+      "image_desktop_alt": "desktop preview of yelpcamp homepage",
+      "title": "YelpCamp",
+      "heroImage": "image-yelpcamp-preview-1.jpg",
+      "description":
+        "This project required me to build a fully responsive website to the designs provided. I used HTML5, along with CSS, JavaScript, VueJs and Firebase.",
+      "category": [
+        "Interaction Design / Front End Development",
+        "HTML / CSS / JS / vueJs / Firebase"
+      ],
+      "linkContent": "Visit Website",
+      "linkUrl": "https://ov7-yelpcamp.vercel.app/",
+  
+      "background": {
+        "title": "Project Background",
+        "description":
+          "This project was a front-end  challenge from Codewell. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned how to work with firebase authentication, storage and  firebase firestore",
+        "subHeading": "Static Previews",
+        "previewImage_one": "image-yelpcamp-preview-1.jpg",
+        "previewImage_two": "image-yelpcamp-preview-2.jpg",
+        "image_mobile_alt": "mobile preview of yelpcamp homepage"
+      },
+      "previousProject": "Inscribe",
+      "nextProject": "Ip Address Tracker"
+    },
+    {
+      "desktopPreview": "image-portfolio-ip-address-tracker.jpg",
+      "image_desktop_alt": "desktop preview of IP Address Tracker landing page",
+      "heroImage": "image-ip-address-tracker-preview-1.jpg",
+      "title": "IP Address Tracker",
+      "description":
+        "This project required me to build a fully functional ip Address Tracker App to the designs provided. This project was build using HTML5, along with CSS, JavaScript, VueJs, NuxtJs",
+      "category": [
+        "Interaction Design / Front End Development",
+        "HTML / CSS / JS / VueJs / NuxtJs"
+      ],
+      "linkContent": "Visit Website",
+      "linkUrl": "https://ov7-ip-address-tracker-nuxt.vercel.app/",
+  
+      "background": {
+        "title": "Project Background",
+        "description":
+          "This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        "subHeading": "Static Previews",
+        "previewImage_one": "image-ip-address-tracker-preview-1.jpg",
+        "previewImage_two": "image-ip-address-tracker-preview-2.jpg",
+        "image_mobile_alt": "mobile preview of IP Address Tracker landing page"
+      },
+      "previousProject": "YelpCamp",
+      "nextProject": "Rest Country API"
+    },
+
+    {
+      "desktopPreview": "image-portfolio-rest-country-api.jpg",
+      "image_desktop_alt": "desktop preview of Rest Country API landing page",
+      "heroImage": "image-rest-country-api-preview-1.jpg",
+      "title": "Rest Country API",
+      "description":
+        "This project required me to build a fully functional Todo App with drag 'n drop functionality to the designs provided. This project was build using HTML5, along with CSS, JavaScript, VueJs.",
+      "category": [
+        "Interaction Design / Front End Development",
+        "HTML / CSS / Js / VueJs"
+      ],
+      "linkContent": "Visit Website",
+      "linkUrl": "https://ov7-rest-country-api.vercel.app/",
+  
+      "background": {
+        "title": "Project Background",
+        "description":
+          "This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        "subHeading": "Static Previews",
+        "previewImage_one": "image-rest-country-api-preview-1.jpg",
+        "previewImage_two": "image-rest-country-api-preview-2.jpg",
+        "image_mobile_alt": "mobile preview of Rest Country API landing page"
+      },
+      "previousProject": "IP Address Tracker",
+      "nextProject": "Space Tourism"
+    },
+    {
+      "desktopPreview": "image-portfolio-space-tourism.jpg",
+      "image_desktop_alt": "desktop preview of Space Tourism website",
+      "heroImage": "image-portfolio-space-tourism.jpg",
+      "title": "Space Tourism",
+      "description":
+        "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+      "category": [
+        "Interaction Design / Front End Development",
+        "HTML / CSS / JavaScript / VueJs"
+      ],
+      "linkContent": "Visit Website",
+      "linkUrl": "https://ov7-space-tourism.netlify.app/",
+  
+      "background": {
+        "title": "Project Background",
+        "description":
+          "This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        "subHeading": "Static Previews",
+        "previewImage_one": "image-portfolio-space-tourism.jpg",
+        "previewImage_two": "image-space-tourism-preview-2.jpg",
+        "image_mobile_alt": "mobile preview of Space Tourism website"
+      },
+      "previousProject": "Rest Country API",
+      "nextProject": "Manage"
+    },
+    {
+      "desktopPreview": "image-portfolio-manage.jpg",
+      "image_desktop_alt": "desktop preview of Manage landing page",
+      "heroImage": "image-manage-preview-1@2x.jpg",
+      "title": "Manage",
+      "description":
+        "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid, JavaScript for the areas that required interactivity, such as the testimonial slider, and Vuejs.",
+      "category": [
+        "Interaction Design / Front End Development",
+        "HTML / CSS / JS / VueJs"
+      ],
+      "linkContent": "Visit Website",
+      "linkUrl": "https://ov7-manage-landing-page.netlify.app/",
+  
+      "background": {
+        "title": "Project Background",
+        "description":
+          "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        "subHeading": "Static Previews",
+        "previewImage_one": "image-manage-preview-1@2x.jpg",
+        "previewImage_two": "image-manage-preview-2@2x.jpg",
+        "image_mobile_alt": "mobile preview of Manage landing page"
+      },
+      "previousProject": "Space Tourism",
+      "nextProject": "Crowdfunding"
+    },
+    {
+      "desktopPreview": "image-portfolio-crowdfunding.jpg",
+      "image_desktop_alt": "desktop preview of Crowdfunding product page",
+      "heroImage": "image-crowdfunding-preview-1.jpg",
+      "title": "Crowdfunding",
+      "description":
+        "This project required me to build a fully responsive product page to the designs provided. I used HTML5, along with CSS Grid, JavaScript (for the areas that required interactivity, such as the progress bar, pledge section and the feedback section), and Vuejs.",
+      "category": [
+        "Interaction Design / Front End Development",
+        "HTML / CSS / JS / VueJs"
+      ],
+      "linkContent": "Visit Website",
+      "linkUrl": "https://ov7-crowdfunding.vercel.app/",
+  
+      "background": {
+        "title": "Project Background",
+        "description":
+          "This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        "subHeading": "Static Previews",
+        "previewImage_one": "image-crowdfunding-preview-1.jpg",
+        "previewImage_two": "image-crowdfunding-preview-2.jpg",
+        "image_mobile_alt": "mobile preview of Crowdfunding product page"
+      },
+      "previousProject": "Manage",
+      "nextProject": "URL Shortener"
+    },
+    {
+      "desktopPreview": "image-portfolio-shortly.jpg",
+      "image_desktop_alt": "desktop preview of shortly landing page",
+      "heroImage": "image-shortly-preview-1.jpg",
+      "title": "URL Shortener",
+      "description":
+        "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid, JavaScript, and Vuejs.",
+      "category": [
+        "Interaction Design / Front End Development",
+        "HTML / CSS / JS / VueJS"
+      ],
+      "linkContent": "Visit Website",
+      "linkUrl": "https://ov7-url-shortly.vercel.app/",
+  
+      "background": {
+        "title": "Project Background",
+        "description":
+          "This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        "subHeading": "Static Previews",
+        "previewImage_one": "image-shortly-preview-1.jpg",
+        "previewImage_two": "image-shortly-preview-2.jpg",
+        "image_mobile_alt": "mobile preview of shortly landing page"
+      },
+      "previousProject": "Crowdfunding",
+      "nextProject": "Bookmark"
+    },
+    {
+      "desktopPreview": "image-portfolio-bookmark.jpg",
+      "image_desktop_alt": "desktop preview of bookmark landing page",
+      "heroImage": "image-bookmark-preview-1@2x.jpg",
+      "title": "Bookmark",
+      "description":
+        "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
+      "category": [
+        "Interaction Design / Front End Development",
+        "HTML / CSS / JS / VueJS"
+      ],
+      "linkContent": "Visit Website",
+      "linkUrl": "https://ov7-bookmark-landing-page.netlify.app/",
+  
+      "background": {
+        "title": "Project Background",
+        "description":
+          "This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        "subHeading": "Static Previews",
+        "previewImage_one": "image-bookmark-preview-1@2x.jpg",
+        "previewImage_two": "image-bookmark-preview-2@2x.jpg",
+        "image_mobile_alt": "mobile preview of bookmark landing page"
+      },
+      "previousProject": "URL Shortener",
+      "nextProject": "Static Job Listing"
+    },
+    {
+      "desktopPreview": "image-portfolio-staticJobListing.jpg",
+      "image_desktop_alt": "desktop preview of Static Job Listing",
+      "heroImage": "image-staticJobListing-preview-1.jpg",
+      "title": "Static Job Listing",
+      "description":
+        "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the filter logic.",
+      "category": [
+        "Interaction Design / Front End Development",
+        "HTML / CSS / JS / VueJs"
+      ],
+      "linkContent": "Visit Website",
+      "linkUrl": "https://ov7-static-job-listings.vercel.app/",
+  
+      "background": {
+        "title": "Project Background",
+        "description":
+          "This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        "subHeading": "Static Previews",
+        "previewImage_one": "image-staticJobListing-preview-1.jpg",
+        "previewImage_two": "image-staticJobListing-preview-2.jpg",
+        "image_mobile_alt": "mobile preview of Static Job Listing"
+        
+      },
+      "previousProject": "Bookmark",
+      "nextProject": "Easybank"
+    },
+    {
+      "desktopPreview": "image-portfolio-easybanking.jpg",
+      "image_desktop_alt": "desktop preview of Easybank landing page",
+      "heroImage": "image-easybanking-preview-1.jpg",
+      "title": "Easybank",
+      "description":
+        "This project was built in vueJs. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
+      "category": [
+        "Interaction Design / Front End Development",
+        "HTML / CSS / JS / VueJs"
+      ],
+      "linkContent": "Visit Website",
+      "linkUrl": "https://eivo-easybank-landing-page.netlify.app/",
+  
+      "background": {
+        "title": "Project Background",
+        "description":
+          "This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+        "subHeading": "Static Previews",
+        "previewImage_one": "image-easybanking-preview-1.jpg",
+        "previewImage_two": "image-easybanking-preview-2.jpg",
+        "image_mobile_alt": "mobile preview of Easybank landing page"
+      },
+      "previousProject": "Static Job Listing",
+      "nextProject": "Mapmate"
+    }
+  ]
+}
