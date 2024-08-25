@@ -5,33 +5,34 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: "Ibarra Real Nova";
-	src: url("~/assets/fonts/IbarraRealNova-VariableFont_wght.ttf") format('truetype');
-}
-
-@font-face {
-	font-family: "Ibarra Real Nova";
-	font-style: italic;
-	src: url('~/assets/fonts/IbarraRealNova-italic-VariableFont_wght.ttf') format('truetype');
-}
-@font-face {
 	font-family: "Public Sans";
 	src: url('~/assets/fonts/PublicSans-VariableFont_wght.ttf') format('truetype');
 }
-@font-face {
+/* @font-face {
 	font-family: "Public Sans";
 	font-style: italic;
 	src: url('~/assets/fonts/PublicSans-italic-VariableFont_wght.ttf') format('truetype');
-}
+} */
 @font-face {
 	font-family: "Yeseva One";
-	
 	src: url('~/assets/fonts/YesevaOne-Regular.ttf') format('truetype');
 }
 @font-face {
 	font-family: "Pacifico";
 	src: url('~/assets/fonts/Pacifico-Regular.ttf') format('truetype');
 }
+
+@font-face {
+	font-family: "Ibarra Real Nova";
+	src: url("~/assets/fonts/IbarraRealNova-VariableFont_wght.ttf") format('truetype');
+}
+
+/* @font-face {
+	font-family: "Ibarra Real Nova";
+	font-style: italic;
+	src: url('~/assets/fonts/IbarraRealNova-italic-VariableFont_wght.ttf') format('truetype');
+} */
+
 
 
 :root {
