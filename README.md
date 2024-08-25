@@ -73,22 +73,3 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-
-
-<!-- ! TODO ------------------ -->
-# open figma for portfolio detail page
-1. fallthrough attributes in vue
-2. portfolio details page navigation icons change it to nuxt icons
-
-2.  fix your fonts
-
-3. mouse cursor effect
-
-4. set active link
-5. install aos or anime.js for animation
-
-6. for validation and email.js
-
-
-8. page transitions
