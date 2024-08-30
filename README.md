@@ -1,83 +1,30 @@
-# Nuxt 3 Minimal Starter
+# Alfred Thompson Ovie - Personal Portfolio
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to my personal portfolio! This site showcases my work as a Full Stack Developer, demonstrating my skills and highlighting key projects. Explore the various aspects of my journey in software development.
 
-## Setup
+## Features
 
-Make sure to install the dependencies:
+- **Responsive Design**: Fully optimized for various devices, ensuring a smooth experience on desktops, tablets, and mobile phones.
+- **Projects Display**: An overview of my key projects, complete with descriptions, the technologies used, and links to live demos or GitHub repositories.
+- **About Me**: A section that introduces who I am, my technical skills, and professional background.
+- **Contact Form**: A built-in form for anyone to reach out regarding collaboration, job opportunities, or inquiries.
 
-```bash
-# npm
-npm install
+## Live Demo
 
-# pnpm
-pnpm install
+You can view the live portfolio at the following link:
 
-# yarn
-yarn install
+[Live Portfolio](https://dev-mastermind-nuxt.vercel.app/)
 
-# bun
-bun install
-```
+## Tech Stack
 
-## Development Server
+- **Framework**: Nuxt.js
+- **Styling**:  CSS/SCSS
+- **Deployment**: Vercel
 
-Start the development server on `http://localhost:3000`:
+## Deployment on Vercel
 
-```bash
-# npm
-npm run dev
+The project is deployed using [Vercel](https://vercel.com/). Changes to the portfolio are handled privately and are automatically reflected when updates are pushed.
 
-# pnpm
-pnpm run dev
+## License
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-
-Step 2: Convert the Image
-Once you’re happy with the image, it needs to be saved as favicon.ico. This is the recommended format supported by most web browsers.
-
-To convert your file to the .ico format, you may need to use an online tool such as iconifier.net, prodraw.net, or faviconer.com.
-
-There are many available. Simply upload your image, select the icon size, and you can then download your brand new .ico file.
+This project is licensed under the MIT License.
