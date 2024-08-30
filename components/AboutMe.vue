@@ -1,13 +1,13 @@
 <template>
-	<section class="about profile" id="about">
+	<section class="about profile" id="about" ref="about">
 		<section class="profile__card">
 			<section class="profile__img__container" data-aos="fade-right">
 				<NuxtImg src="/profilemini2.png" alt="" class="profile__img" />
 			</section>
 			<section class="profile__desc">
-				<h1 class="profile__title" data-aos="fade-right">About Me</h1>
+				<h1 class="profile__title" data-aos="fade-right" data-aos-delay="300">About Me</h1>
 				<section class="profile__text">
-					<p data-aos="flip-down">
+					<p data-aos="flip-down" data-aos-duration="1300" data-aos-delay="300">
 						With over three years of experience in coding, I've turned my
 						passion into a career dedicated to bringing digital visions to life.
 						My mission is clear: to understand your unique goals and transform
@@ -16,7 +16,7 @@
 						ideas while providing seamless performance.
 					</p>
 
-					<p data-aos="flip-down">
+					<p data-aos="flip-down" data-aos-duration="1300" data-aos-delay="350">
 						Clients often ask how I consistently meet their vision, and the
 						answer is simple I listen carefully, understand their needs, and
 						faithfully translate those ideas into code. I approach every project
@@ -24,7 +24,7 @@
 						final product not only works but also stands out.
 					</p>
 
-					<p data-aos="flip-down">
+					<p data-aos="flip-down" data-aos-duration="300" data-aos-delay="300">
 						Let’s collaborate to turn your ideas into reality.
 					</p>
 				</section>
@@ -46,11 +46,24 @@
 	</section>
 </template>
 
-<script setup></script>
+<script setup>
+
+const about = ref(null)
+const { scrollToAnchor, scrollToTop } = useAnchorScroll({
+  toTop: {
+    scrollOptions: {
+      behavior: 'smooth',
+      offsetTop: 0,
+    }
+  },
+})
+console.log(scrollToTop(about))
+</script>
 
 <style lang="scss" scoped>
 .profile {
 	position: relative;
+	overflow: hidden;
 }
 .profile__card {
 	display: grid;
@@ -73,7 +86,7 @@
 }
 .profile__title {
 	font-family: var(--ff-subHeading);
-	font-size: var(--fs-h1);
+	font-size: clamp(2rem, 5vw,  var(--fs-h1));
 	color: var(--accent);
 }
 .profile__text {

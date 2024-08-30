@@ -4,13 +4,15 @@
 			<h2 class="subHeading contact--gsap" data-aos="flip-down">
 				Interested in doing a project together?
 			</h2>
-			<span class="line contact--gsap" data-aos="fade-right"></span>
+			<span class="line contact--gsap" data-aos="fade-right" data-aos-delay="200"></span>
 
 			<AppBtn
 				text="Contact Me"
 				linkPath="/contact"
 				mode="primary"
 				aos-type="fade-right"
+				aos-delay="450"
+				
 			/>
 		</div>
 	</section>

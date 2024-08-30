@@ -44,7 +44,7 @@
 
 <script setup>
 useHead({
-	title: "Portfolio | Alfred Thompson Ovie",
+	title: "Projects | Alfred Thompson Ovie",
 	meta: {
 		name: "description",
 		content:
@@ -111,8 +111,8 @@ main {
 
 .about__details {
 	margin-top: 2em;
-	border-top: 1px solid var(--LightGreyTextField);
-	border-bottom: 1px solid var(--LightGreyTextField);
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 
 	display: flex;
 	justify-content: space-evenly;
@@ -132,10 +132,16 @@ main {
 	.about + .about {
 		margin-top: 6em;
 	}
+
+}
+@media (min-width: 75em) {
+	.about + .about {
+		margin-top: 4em;
+	}
 	.about__contents {
 		display: flex;
 		flex-direction: row;
-		grid-gap: 3em;
+		grid-gap: 6em;
 	}
 	.about:nth-child(even) .about__contents {
 		flex-direction: row-reverse;
@@ -155,8 +161,6 @@ main {
 	}
 	.about__content {
 		flex: 2;
-		border-top: 1px solid var(--LightGreyTextField);
-		border-bottom: 1px solid var(--LightGreyTextField);
 		justify-content: center;
 	}
 	.about__details {
@@ -175,9 +179,7 @@ main {
 }
 
 @media (min-width: 75em) {
-	.about + .about {
-		margin-top: 4em;
-	}
+
 	.about__contents {
 		grid-gap: 6em;
 	}

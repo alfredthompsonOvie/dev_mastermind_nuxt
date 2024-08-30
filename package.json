@@ -18,15 +18,20 @@
     "@vee-validate/nuxt": "^4.13.2",
     "@vee-validate/yup": "^4.13.2",
     "gsap": "^3.12.5",
+    "imagesloaded": "^5.0.0",
     "normalize.css": "^8.0.1",
     "nuxt": "^3.12.4",
     "nuxt-aos": "^1.2.5",
+    "nuxt-mail": "^5.0.1",
     "nuxt-swiper": "^1.2.2",
     "pixi.js": "^8.3.4",
+    "resend": "^4.0.0",
+    "three": "^0.167.1",
     "vue": "latest",
     "yup": "^1.4.0"
   },
   "devDependencies": {
+    "nuxt-anchorscroll": "^1.0.3",
     "nuxt-particles": "^0.3.0",
     "sass-embedded": "^1.77.8"
   }

@@ -4,7 +4,6 @@
 			<AppHeader />
 			<slot />
 			<AppFooter />
-
 		</ClientOnly>
 	</div>
 </template>

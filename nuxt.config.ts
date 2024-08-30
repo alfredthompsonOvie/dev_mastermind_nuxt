@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
 	compatibilityDate: "2024-04-03",
 	devtools: { enabled: true },
+	runtimeConfig: {
+		resendApiKey: "",
+	},
 	app: {
 		layoutTransition: { name: "layout", mode: "out-in" },
 	},
@@ -15,6 +18,7 @@ export default defineNuxtConfig({
 			scrollBehaviorType: "smooth",
 		},
 	},
+
 	particles: {
 		mode: "slim",
 	},
@@ -24,8 +28,11 @@ export default defineNuxtConfig({
 		"nuxt-particles",
 		"@vee-validate/nuxt",
 		"nuxt-swiper",
-		"@tresjs/nuxt",
 		"nuxt-aos",
 		"@nuxt/content",
+		"@nuxt/devtools",
+		"@tresjs/nuxt",
+		"nuxt-anchorscroll",
+		
 	],
 });

@@ -57,7 +57,7 @@
         "HTML / CSS / JS / ReactJS"
       ],
       "linkContent": "Visit Website",
-      "linkUrl": "https://traveltales-ovie.vercel.app",
+      "linkUrl": "https://traveltales-ovie.netlify.app/",
       "background": {
         "title": "Project Background",
         "description": "TravelTales was designed to bring together booking and travel experience sharing on one platform. Using ReactJS, it delivers a smooth, responsive interface that allows users to book travel and review destinations easily.",

@@ -5,7 +5,7 @@
 				<h1 class="subHeading flex__contents--heading subHeading--contact">
 					Get in Touch
 				</h1>
-				<div class="contact__contents__container flex__contents--body">
+				<section class="contact__contents__container flex__contents--body">
 					<p class="contact__description contact--desc">
 						I'm excited to connect and learn about your current projects and how
 						I can contribute. I'm actively seeking new opportunities and am open
@@ -16,17 +16,17 @@
 					</p>
 
 					<SocialLinks page="contact" />
-				</div>
+				</section>
 			</section>
 
 			<section class="contact__section">
 				<form @submit="onSubmit">
 					<fieldset class="flex">
-						<div class="flex__contents--heading">
+						<section class="flex__contents--heading">
 							<legend class="subHeading subHeading--form">Contact Me</legend>
-						</div>
-						<div class="form__contents flex__contents--body">
-							<div class="form__group">
+						</section>
+						<section class="form__contents flex__contents--body">
+							<section class="form__group">
 								<label for="fullname">Name</label>
 								<input
 									type="text"
@@ -35,14 +35,14 @@
 									placeholder="Jane Appleseed"
 									v-model="fullname"
 									class="form__control"
+									:class="{
+											addBorder: errors.fullname,
+											success: !errors.fullname,
+										}"
 								/>
-								<!-- :class="{
-										addBorder: errors.fullname,
-										success: !errors.fullname,
-									}" -->
 								<p v-if="errors" class="error">{{ errors.fullname }}</p>
-							</div>
-							<div class="form__group">
+							</section>
+							<section class="form__group">
 								<label for="email">Email Address</label>
 								<input
 									type="email"
@@ -54,8 +54,8 @@
 									:class="{ addBorder: errors.email, success: !errors.email }"
 								/>
 								<p v-if="errors" class="error">{{ errors.email }}</p>
-							</div>
-							<div class="form__group">
+							</section>
+							<section class="form__group">
 								<label for="message">Message</label>
 								<textarea
 									v-model="message"
@@ -65,27 +65,27 @@
 									rows="10"
 									placeholder="How can I help?"
 									class="form__control"
+									:class="{
+											addBorder: errors.message,
+											success: !errors.message,
+										}"
 								></textarea>
-								<!-- :class="{
-										addBorder: errors.message,
-										success: !errors.message,
-									}" -->
-								<!-- <p v-if="errors" class="error">{{ errors.message }}</p> -->
-							</div>
-							<div class="form__group">
+								<p v-if="errors" class="error">{{ errors.message }}</p>
+							</section>
+							<section class="form__group">
 								<input
 									type="submit"
 									value="Send Message"
 									:disabled="isSubmitting"
 								/>
-							</div>
-						</div>
+							</section>
+						</section>
 					</fieldset>
 				</form>
 			</section>
 		</section>
 		<section class="feedback" v-if="showFeedback">
-			<div class="feedback__content">
+			<section class="feedback__content">
 				<!-- particle js -->
 				<h1 class="subHeading">Thank You!</h1>
 				<p>Your email has been sent.</p>
@@ -95,64 +95,58 @@
 					<NuxtLink
 						to="https://www.linkedin.com/in/alfredthompsonovie/"
 						class="social__link"
+						target="_blank"
 					>
 						LinkedIn
-						<!-- <img
-									src="@/assets/images/icons/linkedin.svg"
-									alt="a link to my linkedin page"
-								/> -->
 					</NuxtLink>
 				</p>
 				<section></section>
 				<NuxtLink to="/" class="cta cta__sec">Go back to homepage</NuxtLink>
-			</div>
+			</section>
 		</section>
 	</main>
 </template>
 
 <script setup>
-import { useField, useForm } from 'vee-validate';
+import { useField, useForm } from "vee-validate";
 import { object, string } from "yup";
-import emailjs from '@emailjs/browser';
 
 const isSubmitting = ref(false);
 const showFeedback = ref(false);
 
-	const schema = object({
+const schema = object({
 	fullname: string().required("This field is required"),
 	email: string().required("This field is required").email(),
 	message: string().required("This field is required"),
 });
 
-	const { handleSubmit, errors } = useForm({
+const { handleSubmit, errors } = useForm({
 	validationSchema: schema,
-	});
-	
-	const { value: fullname } = useField("fullname");
-		const { value: email } = useField("email");
-		const { value: message } = useField("message");
+});
 
-		const onSubmit = handleSubmit((values) => {
-			console.log(values);
-			isSubmitting.value = true;
-			// emailjs.send("service_dy8oq15", "contact_form", values, "LmD4BAQZ0uDvqETKL")
-			// 	.then(
-			// 		function (response) {
-			// 		// show this in feedback
-			// 			console.log("SUCCESS!", response.status, response.text);
-			// 			isSubmitting.value = false;
-			// 			showFeedback.value = true;
-			// 	},
-			// 		function (error) {
-			// 		// show this in feedback
-			// 		console.log("FAILED...", error);
-			// 		isSubmitting.value = false;
-			// 		showFeedback.value = false;
-			// 	}
-			// );
+const { value: fullname } = useField("fullname");
+const { value: email } = useField("email");
+const { value: message } = useField("message");
 
-		});
+const onSubmit = handleSubmit((values) => {
+	console.log(values);
+	isSubmitting.value = true;
 
+	async function submitDate() {
+		console.log("submitDate");
+		const res = await $fetch('/api/send', {
+			method: 'post',
+			body: { ...values}
+		})
+		
+		if(res.data){
+			showFeedback.value = true;
+			isSubmitting.value = false;
+		}
+		// handle errors
+	}
+	submitDate();
+});
 </script>
 
 <style lang="scss" scoped>
@@ -236,7 +230,6 @@ label {
 	border: 0;
 	border-radius: 0.2em;
 	border: 2px solid transparent;
-
 }
 .success {
 	border: 1px solid var(--SlightlyDesaturatedCyan);
@@ -284,8 +277,8 @@ input[disabled] {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 2em;
-	background-color: rgba(0, 0, 0, 0.2);
-	z-index: 80;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 1000;
 	padding-inline: 2em;
 }
 .feedback__content {
@@ -297,17 +290,22 @@ input[disabled] {
 	padding: 2em;
 	border-radius: 1em;
 	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
-	background-color: #fff;
+	background-color: var(--bg);
+
 }
 .feedback__content .subHeading {
 	margin-bottom: 0.7em;
+	font-family: var(--ff-text1);
 }
 .feedback .social__link {
 	text-decoration: underline;
-	font-family: var(--ff-body);
 	text-transform: capitalize;
-	color: var(--DarkBlue);
-	font-size: var(--fs-b1);
+	color: var(--primary);
+	font-size: var(--fs-b3);
+	font-family: var(--ff-text1);
+}
+.feedback .social__link:hover {
+	color: var(--accent);
 }
 
 @media (min-width: 62em) {

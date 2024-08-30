@@ -8,11 +8,7 @@
 	font-family: "Public Sans";
 	src: url('~/assets/fonts/PublicSans-VariableFont_wght.ttf') format('truetype');
 }
-/* @font-face {
-	font-family: "Public Sans";
-	font-style: italic;
-	src: url('~/assets/fonts/PublicSans-italic-VariableFont_wght.ttf') format('truetype');
-} */
+
 @font-face {
 	font-family: "Yeseva One";
 	src: url('~/assets/fonts/YesevaOne-Regular.ttf') format('truetype');
@@ -27,19 +23,13 @@
 	src: url("~/assets/fonts/IbarraRealNova-VariableFont_wght.ttf") format('truetype');
 }
 
-/* @font-face {
-	font-family: "Ibarra Real Nova";
-	font-style: italic;
-	src: url('~/assets/fonts/IbarraRealNova-italic-VariableFont_wght.ttf') format('truetype');
-} */
-
-
 
 :root {
 	--ff-heading: "Anurati";
 	--ff-subHeading: "Yeseva One", sans-serif;
 	--ff-subHeading1: "Ibarra Real Nova", serif;
 	--ff-text: "Public Sans", sans-serif;
+	--ff-text1: "Pacifico";
 
 	--fs-h1: 3.125rem;
 	--fs-h2: 2.5rem;

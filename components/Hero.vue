@@ -133,6 +133,7 @@ const onLoad = (container: Container) => {
 	container.pause();
 	setTimeout(() => container.play(), 2000);
 };
+
 </script>
 
 <style lang="scss" scoped>
@@ -147,9 +148,11 @@ const onLoad = (container: Container) => {
 .bio {
 	grid-column: 2;
 	grid-row: 1/3;
+	grid-row: 1/-1;
 	max-width: 600px;
 	margin-inline: auto;
 	padding: 2em 0;
+	/* background-color: red; */
 }
 .intro {
 	display: flex;
@@ -225,7 +228,7 @@ const onLoad = (container: Container) => {
 @media (min-width: 500px) {
 	.scroll {
 		grid-column: 3;
-		grid-row: 2;
+		grid-row: 3;
 		justify-self: center;
 		align-self: flex-end;
 		display: flex;
@@ -245,8 +248,7 @@ const onLoad = (container: Container) => {
 	.line {
 		width: 2px;
 		height: 70px;
-		background-color: var(--secondary);
-		background-color: var(--primary);
+		background-color:  #ffa500;
 	}
 }
 

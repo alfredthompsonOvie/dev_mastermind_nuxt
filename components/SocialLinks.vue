@@ -96,14 +96,16 @@ defineProps({
 	.footer.socials {
 		margin-left: auto;
 	}
-
+}
+@media (min-width: 820px) {
 	.socials.hero {
     position: absolute;
-    bottom: 1.5em;
+    bottom: 0em;
     left: 2.5em;
 	}
   .hero .social__list {
     flex-direction: column;
   }
+
 }
 </style>

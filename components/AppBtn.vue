@@ -4,6 +4,7 @@
 	class="btn" 
 	:class="{ primary: mode === 'primary' }"
 	:data-aos="aosType"
+	:data-aos-delay="aosDelay"
 	>
 		{{ text }}
 		<span class="first"></span>
@@ -27,6 +28,9 @@ defineProps({
 		type: String,
 	},
 	aosType: {
+		type: String,
+	},
+	aosDelay: {
 		type: String,
 	}
 });

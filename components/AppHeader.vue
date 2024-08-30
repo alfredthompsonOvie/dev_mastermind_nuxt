@@ -7,7 +7,10 @@
 				<Hamburger :isMobile="isMobile" @menuState="handleClick" />
 				<ul class="menu" ref="menu" v-if="isOpen">
 					<li>
-						<NuxtLink to="/#about" id="about" class="navLinks">
+						<NuxtLink 
+						to="/#about" 
+						class="navLinks"
+						>
 							About Me
 							<span class="first"></span>
 							<span class="second"></span>
@@ -40,13 +43,12 @@
 </template>
 
 <script setup>
-import { gsap } from "gsap";
 
 const SCREEN_SIZE = 768;
 const isMobile = ref(null);
-// const showMenu = ref(false);
+// isMobileNavOPen
 const isOpen = ref(false);
-const isMobileNavOpen = ref(false);
+// const isMobileNavOpen = ref(false);
 const menu = ref(null);
 const windowWidth = ref(null);
 
@@ -55,7 +57,6 @@ const route = useRoute();
 watch(
 	() => route.fullPath,
 	() => {
-		// isOpen.value = false;
 		checkScreenSize();
 	}
 );
@@ -76,82 +77,10 @@ function checkScreenSize() {
 	isMobile.value = false;
 	isOpen.value = true;
 }
-// function handleResize() {
-// 	isMobile.value = window.innerWidth < SCREEN_SIZE;
-// 	if (isMobile.value === true) {
-// 		isOpen.value = false;
-// 	} else {
-// 		isOpen.value = true;
-// 	}
-// }
 
-watch(isMobile, (newVal, oldVal) => {
-	if (isMobile.value === false) {
-		// navbar.value.classList.add("closed");
-	} else {
-		// navbar.value.classList.remove("closed");
-	}
-	// 	gsap.from(navbar.value, {
-	// 	autoAlpha: 0.1,
-	// 	x: 50,
-	// })
-});
-// watch(isOpen, () => {
-// 	navbar.value.classList.toggle("closed");
-
-// 		gsap.from(navbar.value, {
-// 		autoAlpha: 0.1,
-// 		x: 50,
-// 	})
-// })
 function handleClick(state) {
-	console.log(state);
 	isOpen.value = state;
 }
-
-// const tl = gsap.timeline();
-
-// const beforeEnter = (el) => {
-//   const li = [...el.children];
-// 	if (isMobile.value) {
-// 		gsap.set(el, {
-// 			clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
-// 		});
-// 		gsap.set(li, {
-// 			autoAlpha: 0.01,
-// 			y: 20,
-// 		});
-
-// 	}
-// };
-// const enter = (el, done) => {
-//   const li = [...el.children];
-// 	if (isMobile.value) {
-// 		tl.to(el, {
-// 			clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-// 			ease: "expo",
-// 		}).to(li, {
-// 			autoAlpha: 1,
-// 			y: 0,
-// 			stagger: 0.2,
-// 			ease: "back",
-// 			onComplete: done,
-// 		});
-// 	}
-
-// };
-// const leave = (el, done) => {
-//   // const tl = gsap.timeline();
-// 	if (isMobile.value) {
-// 		tl.to(el, {
-// 			rotateY: "90deg",
-// 			transformOrigin: "right",
-// 			ease: "circ",
-// 			onComplete: done,
-// 			duration: 0.2,
-// 		});
-// 	}
-// };
 </script>
 
 <style scoped>

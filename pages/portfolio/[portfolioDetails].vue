@@ -30,7 +30,7 @@
 										{{ category }}
 									</p>
 								</div>
-								<NuxtLink :to="project.linkUrl" class="cta cta__sec">
+								<NuxtLink :to="project.linkUrl" target="_blank" class="cta cta__sec">
 									{{ project.linkContent }}
 								</NuxtLink>
 							</div>
