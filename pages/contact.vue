@@ -167,14 +167,14 @@ const onSubmit = handleSubmit((values) => {
 	grid-row: 2;
 	grid-column: 2;
 }
-section > section {
-	/* margin-top: 2em; */
+
+.contact__section{
 	padding: 2em 0;
+
 }
 .contact__details {
 	border-top: 2px solid var(--GrayishDarkBlue-border);
 	border-bottom: 2px solid var(--GrayishDarkBlue-border);
-	/* padding: 2em 0; */
 }
 .subHeading {
 	font-family: "Ibarra Real Nova";
@@ -186,19 +186,7 @@ section > section {
 .contact__description {
 	margin: 1.5em 0;
 }
-/* .social__list {
-	display: flex;
-	align-items: center;
-	gap: 1em;
-}
-.social__link {
-	img {
-		transition: all 0.3s linear;
-	}
-	&:hover img {
-		transform: rotate(-12deg) scale(1.2);
-	}
-} */
+
 /*! --> --> --> --> --> --> --> --> --> --> --> -->  */
 /*? <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <-- <--  */
 /** --> --> --> --> --> --> --> --> --> --> --> -->  */
